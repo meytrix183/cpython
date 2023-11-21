@@ -964,4 +964,5 @@ def getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
         addrlist.append((_intenum_converter(af, AddressFamily),
                          _intenum_converter(socktype, SocketKind),
                          proto, canonname, sa))
+        
     return addrlist
